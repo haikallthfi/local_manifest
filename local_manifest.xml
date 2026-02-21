@@ -10,7 +10,7 @@
   <remote name="kenway214"
           fetch="https://github.com/kenway214" />
   
-  <remove-project name="packages/apps/ManagedProvisioning" />
+  <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="paiskomom" revision="lineage-17.1" clone-depth="1" />
   
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="paiskomom" revision="lineage-17.1" />
