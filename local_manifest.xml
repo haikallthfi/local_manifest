@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="paiskomom"
-          fetch="https://github.com/paiskomom" />                                                                                      
-  <remote name="los"
-          fetch="https://github.com/LineageOS" />                                                                                      
-  <remote name="mumpet"
-          fetch="https://gitlab.com/the-muppets" />
-  <remote name="kenway214"
-          fetch="https://github.com/kenway214" />
-  <remote name="SakilMondal"
-          fetch="https://github.com/SakilMondal" />
-  
-  <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="paiskomom" revision="Q" />
-  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="paiskomom" revision="Q" />
-  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="los" revision="lineage-17.1" clone-depth="1" />
-  <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="paiskomom" revision="lineage-17.1" clone-depth="1" />
-  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="paiskomom" revision="lineage-17.1" clone-depth="1" />
-  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="kenway214" revision="14" clone-depth="1" />
-  <project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="SakilMondal" revision="10.x" clone-depth="1" />
+  <remote name="hkl"
+          fetch="https://github.com/haikallthfi" />
+  <remote name="pa"
+          fetch="https://github.com/AOSPA" />
+  <remote name="ThankYouMario"
+          fetch="https://github.com/ThankYouMario" />
+
+  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="pa" revision="quartz" />
+  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="pa" revision="quartz" />
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi-sdm660" remote="pa" revision="quartz" clone-depth="1" />
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="ThankYouMario" revision="quartz" clone-depth="1" />
   
 </manifest>
