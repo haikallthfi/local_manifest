@@ -11,10 +11,14 @@
           fetch="https://github.com/kenway214" />
   <remote name="SakilMondal"
           fetch="https://github.com/SakilMondal" />
+  <remote name="hkl"
+          fetch="https://github.com/haikallthfi" />
+  <remote name="str"
+          fetch="https://github.com/STRIX-Project" />
   
-  <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="paiskomom" revision="Q" />
-  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="paiskomom" revision="Q" />
-  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="los" revision="lineage-17.1" clone-depth="1" />
+  <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="paiskomom" revision="lineage-17.1" />
+  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="hkl" revision="lineage-17.1" />
+  <project path="kernel/xiaomi/sdm660" name="STRIX_kernel_xiaomi-sdm660" remote="str" revision="sdm660-hmp-release" clone-depth="1" />
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="paiskomom" revision="lineage-17.1" clone-depth="1" />
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="paiskomom" revision="lineage-17.1" clone-depth="1" />
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="kenway214" revision="14" clone-depth="1" />
