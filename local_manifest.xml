@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="haikallthfi"
+          fetch="https://github.com/haikallthfi" />
+ 
+  <!-- Trees -->  
+  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="haikallthfi" revision="conquer-11" />
+  <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="haikallthfi" revision="lineage-18.1" clone-depth="1" />
+  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="haikallthfi" revision="lineage-18.1" clone-depth="1" />
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="haikallthfi" revision="14" clone-depth="1" />
+  <project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="haikallthfi" revision="11.x" clone-depth="1" />
+
+</manifest>
